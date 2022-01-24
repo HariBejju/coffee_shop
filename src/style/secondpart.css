@@ -1,0 +1,138 @@
+.second-part{
+    display: flex;
+    flex-direction: row;
+    top: 0%;
+    justify-content:space-between;
+    height: 659px;
+    align-items: flex-start;
+    
+    background-color: black;
+}
+
+.container2 img{
+    padding-top: 10px;
+    /* padding-left: 20px; */
+    /* padding-left: 20px; */
+    height: 600px;
+    width: 100%;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;    
+}
+
+.content{
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+.content p{
+    /* font-size: 20px; */
+    padding-bottom: 10px;
+}
+
+.black-coffee{
+    font-size: 30px;
+}
+.black-coffee p{
+    text-align: left;
+    font-size: 2.4vw;
+}
+
+.font-size-big{
+    font-size: 5vw;
+    font-weight: 900;
+}
+.explore {
+    background-color: #cc8d2f; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 900;
+  }
+
+/* .explore:hover{ */
+    /* color: black;
+    background-color: white; */
+
+
+.moderate-size{
+      font-size: 1.5vw;
+      padding-top: 0.3rem;
+      
+  }
+.move-bit{
+    padding-top: 30px;
+}
+
+
+@media(max-width:500px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(244, 244, 247);    
+    }  
+    
+    .second-part{
+        display: flex;
+        flex-direction: column;
+        top: 0%;
+        justify-content:center;
+        align-items: center;
+        height: 850px;
+        align-items: flex-start;
+        /* padding-left: 1rem; */
+        /* width: auto; */
+        
+        background-color: black;
+    }
+    .container2 img{
+        /* display: none; */
+        height: 390px;
+    }
+
+    .content{
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+    .font-size-big p{
+        font-size: 50px;
+        text-align: left;
+        font-weight: 900;
+    }
+    .black-coffee p{
+        text-align: left;
+        font-size: 1.5rem;
+        /* align-items: flex-end; */
+    }
+    .moderate-size{
+        font-size: 1.3rem;
+        padding-top: 0.3rem;
+        
+    }
+    .move-bit{
+        justify-content: center;
+        width: 100%;
+        align-items: left;
+
+        /* padding-left: 150px; */
+    }
+    .black-coffee {
+        text-align: left;
+    }
+    .container1{
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+    background-color: rgb(29, 26, 26);
+    /* padding: 2rem; */
+    font-size: 1.5rem;
+    height: auto;
+    
+    
+}
+
+
+
+.box1{
+    display: flex;
+    color: aliceblue;
+    justify-items: center;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+    padding-right: 1rem;
+   
+}
+
+.hello {
+    text-decoration: none;
+}
+
+.box2 ul{
+    display: flex;
+    padding-top: 1rem;
+    list-style-type:none;
+}
+.box2 ul li{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.box1 p{
+     padding-left: 1rem;
+     padding-right: 1rem;
+     cursor: pointer;
+     color: white;
+   
+}
+
+.box3 img{
+    padding-left: 3rem;
+
+    height: 5rem;
+}
+
+.box2 ul li{
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    padding: 15px 12px;
+}
+
+.box2 ul li:hover{
+    color: black;
+    background-color: orange;
+    box-shadow: 0 0 10px rgb(168, 121, 33), 0 0 40px rgb(168, 121, 33), 0 0 10px rgb(168, 121, 33);
+    /* transition-delay: 0.2s; */
+}
+
+.box1 p{
+    position: relative;   
+    overflow: hidden;
+    transition: 0.4s;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+}
+
+.box1 p:hover{
+    /* color: blueviolet; */
+    color: black;
+    background-color: orange;
+    box-shadow: 0 0 10px rgb(168, 121, 33), 0 0 40px rgb(168, 121, 33), 0 0 10px rgb(168, 121, 33);
+    /* transition-delay: 0.2s; */
+
+}
+
+
+@media(max-width: 500px){
+    .box1 p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        cursor: pointer;
+        color: white;
+      
+   }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    /* justify-content: space-between; */
+    background-color: rgb(29, 26, 26);
+    /* padding: 2rem; */
+    font-size: 1.5rem;
+    height: auto;
+    
+    
+}
+.box1{
+    display: flex;
+    color: aliceblue;
+    justify-items: center;
+     
+   
+}
+.box2 ul{
+    display: flex;
+    /* padding-top: 1rem; */
+    list-style-type:none;
+}
+.box2 ul li{
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box3 img{
+    
+    padding-left: 0rem;
+    height: 5rem;
+}
+}
+
+
+
+
+

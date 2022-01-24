@@ -1,0 +1,54 @@
+.entire-menu-ra{
+    background-image: url("../images/ac1a8610e0f820834dd10e6f2556f089.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: white;
+    height: 1000px;
+}
+
+.topic-ra{
+    padding-top: 2rem;
+}
+.topic-ra p{
+    font-size: 1.3rem;
+}
+.topic-ra h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.left-emo img{
+    height: 120px;
+    /* width: 120px; */
+}
+.left-menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 1rem;
+    border-style:solid ;
+    border-width: thin;
+}
+.left-content-taa , .rate-dude{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: auto;
+}
+
+.menu-thing{
+    display: flex;
+padding-top: 2rem;
+/* padding-left: 8rem; */
+align-items: center;
+justify-content: center;
+}
+.rate-da{
+    font-size: 1.3rem;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+}

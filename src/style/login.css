@@ -1,0 +1,104 @@
+.entire-login-black{
+    background-color: black;
+    height: 650px;
+    display: flex ;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+    padding-top: 8rem;
+}
+
+.login-container{
+
+/* background-color: white; */
+display: flex;
+flex-direction: column;
+background-color: rgb(235, 232, 232);
+
+
+/* justify-content: center;
+align-content: c; */
+height: 340px;
+width: 500px;
+}
+
+.login-container h1,p{
+    /* align-content: ce; */
+   text-align: center;
+   padding-bottom: 0.7rem;
+   /* padding-top: 1rem; ; */
+}
+.login-container h1{
+    padding-top: 0.5rem;
+}
+
+.login-container p{
+    font-size: 1.3rem;
+}
+
+.form input{
+    color: black;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0.4rem;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(36, 28, 28);
+    opacity: 1; /* Firefox */
+  }
+
+.form-in , .form-in2{
+padding-bottom: 1rem;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bottom-part{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.sign-in-button{
+    padding-left: 2rem;
+}
+
+.create-acc{
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.sign-in-button button{
+    /* padding: 1rem; */
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-button button:hover{
+    color: black;
+    background-color: orange;
+    /* box-shadow: 0 0 10px rgb(168, 121, 33), 0 0 40px rgb(168, 121, 33), 0 0 10px rgb(168, 121, 33); */
+     transition-delay: 0.1s; 
+}
+
+.forgot{
+    padding-top: 0.6rem;
+    padding-left: 2rem;
+}

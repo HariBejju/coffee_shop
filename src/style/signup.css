@@ -1,0 +1,62 @@
+.dark-container{
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 8rem;
+}
+
+.white-container{
+    background-color: rgb(235, 232, 232);
+    height: 430px;
+    width: 500px;
+}
+
+.inside-form h1{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.inside-form p{
+    font-size: 1.1rem;
+}
+.form-da input{
+    display: block;
+    width: 100%;
+    padding: 0.4rem; 
+}
+.form-da{
+    padding: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.fields-ra{
+    padding-bottom: 1rem;
+}
+
+.buttonss button{
+   
+        /* padding: 1rem; */
+        padding-right: 0.9rem;
+        padding-left: 0.9rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+        background-color: black;
+        border-radius: 3px;
+        cursor: pointer;
+
+}
+.buttonss{
+   padding-left: 2rem; 
+   padding-bottom: 0.4rem;
+}
+.return{
+    text-decoration: none;
+    color: inherit;
+    padding: 2rem;
+    padding-top: 2rem;
+}
+
