@@ -18,7 +18,7 @@ function Footer() {
                 <Slide top>
                 <div className='information'>
                 <ul>
-                    <a className='hello' href="/home"><li>Home</li></a>
+                    <a className='hello' href="/"><li>Home</li></a>
                     <a className='hello' href="/shop"><li>Shop</li></a>
                     {/* <a href=""><li>Pages</li></a> */}
                     {/* <a href=""><li>Blog</li></a> */}
