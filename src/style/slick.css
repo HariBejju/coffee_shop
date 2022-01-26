@@ -21,3 +21,11 @@
     text-align: center;
     padding-bottom: 1rem;
 }
+
+@media(max-width: 500px) {
+    .slick{
+        display: none;
+    }
+
+    
+}
