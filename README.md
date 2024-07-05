@@ -92,4 +92,3 @@ Project Link: [https://peaceful-lamport-b946d0.netlify.app/](https://peaceful-la
 
 ---
 
-Feel free to customize this template further to suit your project's specific needs.
