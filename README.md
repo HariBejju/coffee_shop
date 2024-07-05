@@ -1,4 +1,4 @@
-Here's a suggested structure and content for your README file for the coffee website built using React and React-Reveal:
+
 
 ---
 
@@ -42,7 +42,7 @@ To get a local copy up and running, follow these steps:
 2. **Navigate to the project directory:**
 
    ```sh
-   cd coffee-website
+   cd coffee-shop
    ```
 
 3. **Install dependencies:**
@@ -69,20 +69,6 @@ To get a local copy up and running, follow these steps:
 
    The optimized build will be stored in the `build` directory.
 
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
